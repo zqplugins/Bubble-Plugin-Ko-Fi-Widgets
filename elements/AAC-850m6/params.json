@@ -1,0 +1,33 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 80,
+        "width": 290
+    },
+    "display": "Ko-Fi",
+    "fields": {
+        "AAD": {
+            "caption": "account",
+            "doc": "Your user account, will be on the link to redirect user. https://www.buymeacoffee.com/{account}",
+            "editor": "StaticText",
+            "name": "account",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAE": {
+            "caption": "colour",
+            "doc": "Only use the name of the color",
+            "editor": "Dropdown",
+            "name": "colour",
+            "optional": true,
+            "options": "Light Blue,Grey,Red,Green,Black",
+            "rank": 1
+        }
+    },
+    "icon": "ion-coffee",
+    "property_applications": {
+        "MinWidth": false,
+        "resizable": false
+    }
+}

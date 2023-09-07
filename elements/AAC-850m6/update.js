@@ -1,0 +1,3 @@
+function(instance, properties, context) {
+    let colour;switch(properties.colour){case"Light Blue":default:colour="kofi1";break;case"Grey":colour="kofi2";break;case"Red":colour="kofi3";break;case"Green":colour="kofi4";break;case"Black":colour="kofi5"}let classid=instance.data.id,div=$("<div class="+classid+"><a href='https://ko-fi.com/"+properties.account+"' target='_blank'><img style='border:0px;height:100%;' src='https://storage.ko-fi.com/cdn/"+colour+".png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a></div>");instance.data.div||(instance.canvas.append(div),instance.data.div=div);
+}
